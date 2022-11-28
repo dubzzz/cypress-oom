@@ -5,6 +5,7 @@ var animation = bodymovin.loadAnimation({
   autoplay: true,
   path: "data.json",
 });
+animation.setSpeed(10);
 
 const others = document.getElementById("others");
 for (let index = 0; index !== 100_000; ++index) {

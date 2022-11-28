@@ -1,0 +1,17 @@
+{
+  "name": "cypress-oom",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve": "serve",
+    "test": "cypress open"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^11.2.0",
+    "serve": "^14.1.2"
+  }
+}
